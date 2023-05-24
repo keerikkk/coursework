@@ -1,0 +1,32 @@
+@import "_reset";
+@import "_layout";
+@import "_games";
+
+@include scrollbar(#0e5457da, #1884d6de, #00d0d7da);
+.page {
+	flex: 1 1 auto;
+
+	&__main {
+		background: url('../img/backgrounds/04.jpg') 50%/cover no-repeat;
+	}
+}
+.main {
+	&__images {
+		flex: 0 1 42.5%;
+	}
+}
+.info {
+	background-color: #1c4998a9;
+
+	&__text {
+		color: #fffb00f7;
+	}
+}
+.main {
+	&__text {
+		color: #fffb00f7;
+	}
+}
+.title {
+	color: #7fdbff;
+}
