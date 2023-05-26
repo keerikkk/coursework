@@ -1,5 +1,5 @@
 $semi-small: 991.98px;
-$small: 650px;
+$small: 662px;
 
 .text {
 	font-size: 18px;
@@ -81,6 +81,8 @@ $small: 650px;
 	}
 
 	&__item {
+		display: flex;
+		justify-self: center;
 		overflow: hidden;
 		box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 		&-1 {

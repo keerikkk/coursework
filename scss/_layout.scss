@@ -1,5 +1,5 @@
 $semi-small: 991.98px;
-$small: 650px;
+$small: 662px;
 $background: rgba(32, 32, 34, 1);
 $background-header: rgba(32, 32, 34, 1);
 
@@ -292,7 +292,7 @@ body {
 	}
 
 	&__icon {
-		display: inline-block;
+		display: flex;
 		border: 3px solid #9c9c9c;
 		padding: 6px;
 		border-radius: 50%;
@@ -360,8 +360,11 @@ body {
 	}
 
 	.contacts-footer {
-		&__icon img {
-			width: 30px;
+		&__icon {
+			padding: 4px;
+			& img {
+				width: 30px;
+			}
 		}
 	}
 }

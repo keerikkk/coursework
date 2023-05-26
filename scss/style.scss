@@ -1,7 +1,7 @@
 @import "_reset";
 @import "_layout";
 $semi-small: 991.98px;
-$small: 650px;
+$small: 662px;
 
 
 @include scrollbar(#4c4c4c, #0c0c0c, #222222);
@@ -66,7 +66,7 @@ $small: 650px;
 	}
 
 	&__images {
-		flex: 0 1 54%;
+		flex: 0 1 55%;
 	}
 }
 .images-main {
@@ -82,6 +82,8 @@ $small: 650px;
 	}
 
 	&__item {
+		display: flex;
+		justify-self: center;
 		overflow: hidden;
 		&-1,
 		&-4 {
@@ -156,11 +158,14 @@ $small: 650px;
 		}
 
 		&__images {
-			max-width: 600px;
 			align-self: center;
 		}
 	}
-
+	.images-main {
+		&__item {
+			///////////////////
+		}
+	}
 	.title {
 		font-size: 44px;
 
